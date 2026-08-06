@@ -1,5 +1,5 @@
 # Use the official .NET 10 SDK image to build the app
-FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:10.0-bookworm AS build
 WORKDIR /src
 
 # Copy project file and restore dependencies
@@ -11,7 +11,7 @@ COPY . .
 RUN dotnet publish -c Release -o /app/out
 
 # Use the official ASP.NET 10 runtime image for execution
-FROM mcr.microsoft.com/dotnet/aspnet:10.0
+FROM mcr.microsoft.com/dotnet/aspnet:10.0-bookworm-slim
 WORKDIR /app
 COPY --from=build /app/out .
 
