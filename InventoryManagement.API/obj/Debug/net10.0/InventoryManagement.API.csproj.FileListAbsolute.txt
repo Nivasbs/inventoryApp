@@ -123,3 +123,4 @@ D:\invApp\InventoryManagement.API\obj\Debug\net10.0\refint\InventoryManagement.A
 D:\invApp\InventoryManagement.API\obj\Debug\net10.0\InventoryManagement.API.pdb
 D:\invApp\InventoryManagement.API\obj\Debug\net10.0\InventoryManagement.API.genruntimeconfig.cache
 D:\invApp\InventoryManagement.API\obj\Debug\net10.0\ref\InventoryManagement.API.dll
+D:\invApp\InventoryManagement.API\obj\Debug\net10.0\InventoryManagement.API.sourcelink.json
